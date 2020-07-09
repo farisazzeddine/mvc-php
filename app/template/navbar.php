@@ -1,23 +1,42 @@
-<!--  navBar -->
-<nav class="navbar navbar-expand-lg shadow-lg navbar-dark bg-teal">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand mr-auto " href="#">NavBar</a>
+<!-- Page Content  -->
+<div id="content">
 
-        <div class="my-2  my-lg-0 dropdown ">
-            <a class="nav-link dropdown-toggle text-white" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fa fa-user-o" aria-hidden="true"></i>
-            </a>
-            <div class="dropdown-menu" style="right: 5px; left: auto;" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Logout</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+    <nav class="navbar navbar-expand-lg navbar-toggler bg-teal-darken text-light">
+        <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-teal  ">
+                <i class="fa fa-align-left" aria-hidden="true"></i>
+                <span></span>
+            </button>
+            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-align-justify"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav  ml-auto">
+                    <li class="nav-item active">
+
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Profil</a>
+                                <a class="dropdown-item" href="#">logout</a>
+
+                            </div>
+                        </div>
+                    </li>
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Page</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Page</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Page</a>-->
+<!--                    </li>-->
+                </ul>
             </div>
         </div>
-
-    </div>
-</nav>
-<!-- end of navbar -->
+    </nav>

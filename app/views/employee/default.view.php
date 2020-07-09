@@ -1,9 +1,5 @@
 <div class="container-fluid mt-4">
-    <div class="input-field col s12  center-align">
-        <a href="employee/add" class="btn btn-teal " type="submit" name="submit">Add New Employee
-        </a>
 
-    </div>
     <?php if (isset($_SESSION['message'])) { ?>
         <div class="center-align">
             <p class=" white-text col-md-6 offset-md-3 alert alert-success accent-3 <?= isset($error) ? 'indigo lighten-5' : '' ?>"

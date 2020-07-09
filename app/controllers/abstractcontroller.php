@@ -11,6 +11,7 @@ class AbstractController
     protected $_controller;
     protected $_action;
     protected $_params;
+    protected $_template;
 
     protected $_data = [];
 
@@ -27,6 +28,11 @@ class AbstractController
     {
       $this->_action = $actionName;
     }
+
+    public function setTemplate($template)
+    {
+       $this->_template = $template;
+    }
     public function setParams ($params)
     {
       $this->_params = $params;
@@ -41,15 +47,9 @@ class AbstractController
         else{
             $view = VIEWS_PATH . $this->_controller . DS . $this->_action . '.view.php';
             if(file_exists($view)){
-                extract($this->_data);
-                require_once TEMPLATE_PATH. 'templateheaderstart.php';
-                require_once TEMPLATE_PATH. 'templateheaderend.php';
-                require_once TEMPLATE_PATH. 'wrapperstart.php';
-                require_once TEMPLATE_PATH. 'navbar.php';
-                require_once TEMPLATE_PATH. 'sidebar.php';
-                require_once $view;
-                require_once TEMPLATE_PATH. 'wrapperend.php';
-                require_once TEMPLATE_PATH. 'templatefooter.php';
+                $this->_template->setActionViewFile($view);
+                $this->_template->setAppData($this->_data);
+                $this->_template->renderApp();
             }
             else{
                 require_once VIEWS_PATH . 'notfound' . DS . 'noview.view.php';
