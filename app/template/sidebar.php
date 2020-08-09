@@ -1,48 +1,47 @@
 <!-- Sidebar  -->
 <nav id="sidebar">
-    <div class="sidebar-header">
-        <h3>Managing Employees</h3>
+    <div class="sidebar-header d-flex align-items-center pattern-cross-dots-xl">
+        <img src="/img/523-5233379_employee-management-system-logo-hd-png-download.png" class="rounded-circle m-3" width="70" alt="managing-picture">
+        <h5><?= $text_managing_employees ?></h5>
     </div>
 
-    <ul class="list-unstyled components">
-        <p>Dummy Heading</p>
-        <li class="active">
-            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Employees</a>
+    <ul class="list-unstyled components ml-2">
+        <li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-users mr-2" aria-hidden="true"></i><?= $text_sb_employees?></a>
             <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
-                    <a href="employee/">All Employees</a>
+                    <a href="/employee"><i class="fa fa-list mr-2" aria-hidden="true"></i><?= $text_sb_all_employees ?></a>
                 </li>
                 <li>
-                    <a href="employee/add">Add New Employee</a>
+                    <a href="/employee/add"><i class="fa fa-plus mr-2" aria-hidden="true"></i><?= $text_sb_add_employees ?></a>
                 </li>
 
-                <li>
-                    <a href="#">Home 3</a>
-                </li>
             </ul>
         </li>
         <li>
-            <a href="#">About</a>
+            <a href="#"><i class="fa fa-info-circle mr-2" aria-hidden="true"></i><?= $text_sb_about_employees ?></a>
         </li>
         <li>
-            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-columns mr-2" aria-hidden="true"></i><?= $text_sb_pages ?></a>
             <ul class="collapse list-unstyled" id="pageSubmenu">
                 <li>
-                    <a href="#">Page 1</a>
+
+                    <a href="#"><?= $text_sb_pages_1 ?> </a>
                 </li>
                 <li>
-                    <a href="#">Page 2</a>
+                    <a href="#"><?= $text_sb_pages_2 ?> </a>
                 </li>
                 <li>
-                    <a href="#">Page 3</a>
+                    <a href="#"><?= $text_sb_pages_3 ?></a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href="#">Portfolio</a>
+
+            <a href="#"><i class="fa fa-rss-square mr-2" aria-hidden="true"></i><?= $text_sb_Portofolio ?></a>
         </li>
         <li>
-            <a href="#">Contact</a>
+            <a href="#"><i class="fa fa-address-card mr-2" aria-hidden="true"></i><?= $text_sb_contact ?></a>
         </li>
     </ul>
 

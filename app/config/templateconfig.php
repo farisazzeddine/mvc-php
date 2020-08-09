@@ -12,6 +12,7 @@ return[
             'css'=>[
                 'bootstrap' =>CSS.'bootstrap.min.css',
                 'fawsome'   =>CSS.'font-awesome.min.css',
+                'pattern'   =>CSS.'pattern.min.css',
                 'custom'    =>CSS.'custom.css'
 
             ]
@@ -22,6 +23,7 @@ return[
             'jquery' =>JS.'jquery.min.js',
             'popper' =>JS.'popper.min.js',
             'bootstrap' =>JS.'bootstrap.min.js',
+            'dataTables' =>JS.'dataTables.bootstrap.min.js',
             'custom' =>JS.'custom.js'
 
         ]

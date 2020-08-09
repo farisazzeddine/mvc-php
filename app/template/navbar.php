@@ -12,17 +12,19 @@
                 <i class="fas fa-align-justify"></i>
             </button>
 
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav  ml-auto">
                     <li class="nav-item active">
 
                         <div class="dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-user" aria-hidden="true"></i>
+                            <button class="btn dropdown-toggle text-white justify-content-between" type="button" id="dropdownMenuButtonNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-user text-light" aria-hidden="true"></i>
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Profil</a>
-                                <a class="dropdown-item" href="#">logout</a>
+                            <div class="dropdown-menu" id="dropdownMenuButtonNav" aria-labelledby="dropdownMenuButtonNav">
+                                <a class="dropdown-item" href="#"><i class="fa fa-id-card-o mx-2" aria-hidden="true"></i><?= $text_nav_profil ?> </a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-sign-out mx-2" aria-hidden="true"></i><?= $text_nav_logout ?></a>
+                                <a class="dropdown-item" href="/language"><i class="fa fa-language mx-2" aria-hidden="true"></i><?= $text_nav_language ?> </a>
 
                             </div>
                         </div>
