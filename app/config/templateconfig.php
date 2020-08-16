@@ -20,11 +20,11 @@ return[
     ],
     'footer_resources' =>[
         'js'=>[
-            'jquery' =>JS.'jquery.min.js',
-            'popper' =>JS.'popper.min.js',
-            'bootstrap' =>JS.'bootstrap.min.js',
-            'dataTables' =>JS.'dataTables.bootstrap.min.js',
-            'custom' =>JS.'custom.js'
+            'jquery'        =>JS.'jquery.min.js',
+            'popper'        =>JS.'popper.min.js',
+            'bootstrap'     =>JS.'bootstrap.min.js',
+            'dataTables'    =>JS.'dataTables.bootstrap.min.js',
+            'custom'        =>JS.'custom.js'
 
         ]
     ]
