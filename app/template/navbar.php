@@ -15,6 +15,15 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav  ml-auto">
+                    <?php if ($_SESSION['lang']=='ar'){ ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/language"><i class="fa fa-globe mx-1" aria-hidden="true"></i> fr</a>
+                        </li>
+                    <?php   } else { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/language"><i class="fa fa-globe mx-1" aria-hidden="true"></i>ar</a>
+                        </li>
+                    <?php } ?>
                     <li class="nav-item active">
 
                         <div class="dropdown">
@@ -29,9 +38,7 @@
                             </div>
                         </div>
                     </li>
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="#">Page</a>-->
-<!--                    </li>-->
+
 <!--                    <li class="nav-item">-->
 <!--                        <a class="nav-link" href="#">Page</a>-->
 <!--                    </li>-->

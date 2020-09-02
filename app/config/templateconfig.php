@@ -1,5 +1,7 @@
 <?php
+
 return[
+
     'template' =>[
              'wrapper_start'      => TEMPLATE_PATH . 'wrapperstart.php',
              'sidebar'            => TEMPLATE_PATH . 'sidebar.php',
@@ -9,13 +11,13 @@ return[
 
     ],
     'header_resources' =>[
-            'css'=>[
-                'bootstrap' =>CSS.'bootstrap.min.css',
+
+            'css'=> array(
+                'bootstrap' =>CSS.'bootstrap-fr.min.css',
                 'fawsome'   =>CSS.'font-awesome.min.css',
                 'pattern'   =>CSS.'pattern.min.css',
-                'custom'    =>CSS.'custom.css'
-
-            ]
+                'custom'    =>CSS.'custom-fr.css',
+            )
 
     ],
     'footer_resources' =>[
@@ -27,6 +29,7 @@ return[
             'custom'        =>JS.'custom.js'
 
         ]
-    ]
+    ],
+
 
 ];
