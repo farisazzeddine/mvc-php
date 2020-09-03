@@ -32,11 +32,21 @@ class SessionManager extends \SessionHandler
            $this->sessionDomain, $this->sessionSSL,
            $this->sessionHTTPOnly
        );
-       session_set_save_handler($this,true);
+//       session_set_save_handler($this,true);
     }
     public function __get($key)
     {
-        return false !== $_SESSION[$key] ? $_SESSION[$key] : false;
+        if(isset($_SESSION[$key])){
+            $data=@unserialize($_SESSION[$key]);
+            if($data===false){
+                return $_SESSION[$key];
+            }else{
+                return $data;
+            }
+        }else{
+            trigger_error('No session key'.$key.'exists', E_USER_NOTICE);
+        }
+
     }
     public function __set($key, $value)
     {
@@ -48,11 +58,11 @@ class SessionManager extends \SessionHandler
     }
     public function read($id)
     {
-      return mcrypt_decrypt($this->sessionCipherAlgo,$this->sessionCipherKey,parent::read($id),$this->sessionCipherMode);
+      return openssl_decrypt(parent::read($id),$this->sessionCipherAlgo,$this->sessionCipherKey);
     }
     public function write($id, $data)
     {
-        return parent::write($id, mcrypt_decrypt($this->sessionCipherAlgo,$this->sessionCipherKey,$data,$this->sessionCipherMode) );
+        return parent::write($id, openssl_encrypt($data,$this->sessionCipherAlgo,$this->sessionCipherKey) );
     }
     public function start()
     {
@@ -101,7 +111,7 @@ class SessionManager extends \SessionHandler
     private function generateFingerPrint()
     {
         $userAgentId = $_SERVER['HTTP_USER_AGENT'];
-        $this->cipherKey = mcrypt_create_iv(32);
+        $this->cipherKey = openssl_random_pseudo_bytes(16);
         $sessionId = session_id();
         $this->fingerPrint = md5($userAgentId . $this->cipherKey. $sessionId);
     }
@@ -121,7 +131,7 @@ class SessionManager extends \SessionHandler
 
 
 }
-$session = new SessionManager();
-$session->start();
-//$session->kill();
-var_dump($_SERVER);
+//$session = new SessionManager();
+//$session->start();
+////$session->kill();
+////var_dump($_SERVER);

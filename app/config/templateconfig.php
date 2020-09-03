@@ -13,10 +13,10 @@ return[
     'header_resources' =>[
 
             'css'=> array(
-                'bootstrap' =>CSS.'bootstrap-fr.min.css',
+                'bootstrap' =>CSS.'bootstrap-'.$_SESSION['lang'].'.min.css',
                 'fawsome'   =>CSS.'font-awesome.min.css',
                 'pattern'   =>CSS.'pattern.min.css',
-                'custom'    =>CSS.'custom-fr.css',
+                'custom'    =>CSS.'custom-'.$_SESSION['lang'].'.css',
             )
 
     ],

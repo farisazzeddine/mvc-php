@@ -3,6 +3,7 @@ namespace PHPMVC;
 
 use PHPMVC\LIB\FrontController;
 use PHPMVC\LIB\Language;
+use PHPMVC\LIB\SessionManager;
 use PHPMVC\LIB\Template;
 
 if(!defined('DS')){
@@ -10,6 +11,8 @@ if(!defined('DS')){
 }
 require_once '..' . DS . 'app' . DS .'config'.DS. 'config.php';
 require_once APP_PATH . DS . 'lib'. DS . 'autoload.php';
+$session=new SessionManager();
+$session->start();
 $template_parts = require_once '..' . DS . 'app' . DS .'config'.DS. 'templateconfig.php';
 
 
