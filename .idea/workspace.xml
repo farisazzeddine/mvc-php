@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/sessionmanager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/sessionmanager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/navbar.php" afterDir="false" />
-    </list>
+    <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +112,7 @@
       <workItem from="1597591505456" duration="5491000" />
       <workItem from="1598188970096" duration="23749000" />
       <workItem from="1599086416468" duration="5142000" />
-      <workItem from="1599347215873" duration="2757000" />
+      <workItem from="1599347215873" duration="3009000" />
     </task>
     <task id="LOCAL-00001" summary="session_management">
       <created>1599088036022</created>
@@ -127,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599088036022</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new version with git ignore">
+      <created>1599392034565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599392034565</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new version with git ignore">
+      <created>1599392225984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599392225984</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,17 +143,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="session_management" />
-    <option name="LAST_COMMIT_MESSAGE" value="session_management" />
+    <MESSAGE value="new version with git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version with git ignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Inspections" timestamp="1598718152862">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1598718152862" />
-    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1599392208122">
+    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1599392247134">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1599392208122" />
+    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1599392247134" />
     <state x="520" y="127" key="FileChooserDialogImpl" timestamp="1590871262744">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
