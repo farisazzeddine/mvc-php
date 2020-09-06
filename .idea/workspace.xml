@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/templateconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/templateconfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/sessionmanager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/sessionmanager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +118,7 @@
       <workItem from="1597591505456" duration="5491000" />
       <workItem from="1598188970096" duration="23749000" />
       <workItem from="1599086416468" duration="5142000" />
+      <workItem from="1599347215873" duration="2757000" />
     </task>
     <task id="LOCAL-00001" summary="session_management">
       <created>1599088036022</created>
@@ -140,10 +142,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1598718152862" />
-    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1599088035071">
+    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1599175761738">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1599088035071" />
+    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1599175761738" />
     <state x="520" y="127" key="FileChooserDialogImpl" timestamp="1590871262744">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

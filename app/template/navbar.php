@@ -14,7 +14,7 @@
 
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav navbar-nav  ml-auto">
+                <ul class="nav navbar-nav  mg-auto">
                     <?php if ($_SESSION['lang']=='ar'){ ?>
                         <li class="nav-item">
                             <a class="nav-link" href="/language"><i class="fa fa-globe mx-1" aria-hidden="true"></i> fr</a>

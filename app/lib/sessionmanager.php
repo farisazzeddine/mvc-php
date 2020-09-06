@@ -94,7 +94,6 @@ class SessionManager extends \SessionHandler
       $this->sessionStartTime=time();
       return session_regenerate_id(true);
     }
-
     public function kill()
     {
       session_unset();
@@ -107,7 +106,6 @@ class SessionManager extends \SessionHandler
       );
       session_destroy();
     }
-
     private function generateFingerPrint()
     {
         $userAgentId = $_SERVER['HTTP_USER_AGENT'];
@@ -115,7 +113,6 @@ class SessionManager extends \SessionHandler
         $sessionId = session_id();
         $this->fingerPrint = md5($userAgentId . $this->cipherKey. $sessionId);
     }
-
     public function isValidFingerPrint()
     {
       if(!isset($this->fingerPrint)){
@@ -127,9 +124,6 @@ class SessionManager extends \SessionHandler
       }
       return false;
     }
-
-
-
 }
 //$session = new SessionManager();
 //$session->start();
