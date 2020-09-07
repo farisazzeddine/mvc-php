@@ -21,7 +21,7 @@
                         </li>
                     <?php   } else { ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="/language"><i class="fa fa-globe mx-1" aria-hidden="true"></i>ar</a>
+                            <a class="nav-link" href="/language">عربي <i class="fa fa-globe mx-1" aria-hidden="true"></i></a>
                         </li>
                     <?php } ?>
                     <li class="nav-item active">

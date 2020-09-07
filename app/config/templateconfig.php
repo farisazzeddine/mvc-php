@@ -15,8 +15,9 @@ return[
             'css'=> array(
                 'bootstrap' =>CSS.'bootstrap-'.$_SESSION['lang'].'.min.css',
                 'fawsome'   =>CSS.'font-awesome.min.css',
+                'fa-material'=>CSS.'material-icons.css',
                 'pattern'   =>CSS.'pattern.min.css',
-                'custom'    =>CSS.'custom-'.$_SESSION['lang'].'.css',
+                'custom'    =>CSS.'custom'.$_SESSION['lang'].'.css',
             )
 
     ],

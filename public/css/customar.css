@@ -201,3 +201,11 @@ a.article:hover {
 .mg-auto {
     margin-right: auto !important;
 }
+ul. list-unstyled components ml-2 li a > i{
+    display:block;
+    float:right;
+    width:20px;
+    height: 20px;
+    margin-left:10px ;
+    font-size:1em;
+}

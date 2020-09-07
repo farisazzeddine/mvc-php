@@ -24,7 +24,7 @@ class Language
 
             }
         }else{
-            trigger_error('the language file'.$path.' dosen\'t existes '.E_USER_WARNING);
+            trigger_error('the language file'.$path.' dosent existes '.E_USER_WARNING);
         }
     }
 

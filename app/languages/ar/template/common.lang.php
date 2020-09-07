@@ -1,6 +1,22 @@
 <?php
 $_['text_managing_employees']=" إدارة الموظفين";
-$_['text_sb_employees']=" الموظفين";
+$_['text_sb_users']=" المستخدمين";
+$_['text_sb_general_statistics']=" إحصاءات عامة";
+$_['text_sb_store']=" المتجر";
+$_['text_sb_store_categories']=" فئات المنتجات";
+$_['text_sb_store_products']="المنتجات";
+$_['text_sb_clients']=" الزبائن";
+$_['text_sb_suppliers']=" الموردين";
+$_['text_sb_expenses']=" المصاريف";
+$_['text_sb_expenses_categories']=" فئات الإنفاق";
+$_['text_sb_expenses_daily_expenses']=" التكاليف اليومية";
+$_['text_sb_transactions']=" المعاملات";
+$_['text_sb_transactions_purchases']=" مشتريات";
+$_['text_sb_transactions_sales']=" مبيعات";
+$_['text_sb_notifications']=" إشعارات";
+$_['text_sb_reports']=" التقارير";
+$_['text_body_notfound']=" عذرا، لم يتم العثور على الصفحة المطلوبة";
+
 $_['text_sb_all_employees']=" كل الموظفين";
 $_['text_sb_add_employees']="إضافة موظف جديد ";
 $_['text_sb_about_employees']="عن الموظفين ";
