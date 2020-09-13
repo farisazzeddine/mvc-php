@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="new version with git ignore">
-      <change afterPath="$PROJECT_DIR$/app/controllers/userscontroller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/ar/users/default.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/fr/users/default.lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/usersmodel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/default.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/templateconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/templateconfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/abstractcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/abstractcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/indexcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/indexcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/notfoundcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/notfoundcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/ar/template/common.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/template/common.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/fr/template/common.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/template/common.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/language.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/language.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/notfound/notfound.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/notfound/notfound.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/custom-ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/custom-fr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customfr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/ar/users/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/users/default.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/fr/users/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/users/default.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/customar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/customfr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customfr.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -73,7 +65,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/languages/fr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/models" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -82,6 +74,8 @@
       <recent name="C:\xampp\htdocs\mvc\app\config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc\app\models" />
+      <recent name="C:\xampp\htdocs\mvc\app\views" />
       <recent name="C:\xampp\htdocs\mvc\app\languages\fr" />
       <recent name="C:\xampp\htdocs\mvc\app\languages\ar" />
       <recent name="C:\xampp\htdocs\mvc\app\controllers" />
@@ -138,6 +132,10 @@
       <workItem from="1598188970096" duration="23749000" />
       <workItem from="1599086416468" duration="5142000" />
       <workItem from="1599347215873" duration="16812000" />
+      <workItem from="1599601930966" duration="1770000" />
+      <workItem from="1599603771495" duration="713000" />
+      <workItem from="1599773666792" duration="240000" />
+      <workItem from="1599994969983" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="session_management">
       <created>1599088036022</created>
@@ -176,10 +174,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1598718152862" />
-    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1599392247134">
+    <state x="613" y="0" key="CommitChangelistDialog2" timestamp="1599517801352">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1599392247134" />
+    <state x="613" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1599517801352" />
     <state x="520" y="127" key="FileChooserDialogImpl" timestamp="1590871262744">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -208,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="550" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599088052132" />
-    <state x="832" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599087898977">
+    <state x="832" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599517817593">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="832" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1599087898977" />
+    <state x="832" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1599517817593" />
     <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1597597333492">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -201,11 +201,17 @@ left: -118px;
 .mg-auto {
     margin-left: auto !important;
 }
-ul. list-unstyled components ml-2 li a > i{
+ul.list-unstyled components ml-2 li a > i{
     display:block;
     float:left;
     width:20px;
     height: 20px;
     margin-right:10px ;
     font-size:1em;
+}
+div.container h4.bg-title {
+    background-color:#00796b;
+    padding:10px;
+    color: #ffffff;
+    display: inline-block;
 }
