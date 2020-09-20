@@ -14,6 +14,7 @@ return[
 
             'css'=> array(
                 'bootstrap' =>CSS.'bootstrap-'.$_SESSION['lang'].'.min.css',
+                'dataTables'=>CSS.'dataTables.bootstrap.min.css',
                 'fawsome'   =>CSS.'font-awesome.min.css',
                 'fa-material'=>CSS.'material-icons.css',
                 'pattern'   =>CSS.'pattern.min.css',
