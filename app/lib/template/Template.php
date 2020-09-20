@@ -1,11 +1,12 @@
 <?php
 
 
-namespace PHPMVC\LIB;
+namespace PHPMVC\LIB\Template;
 
 
 class Template
 {
+        use TemplateHelper;
         private $_templateParts;
         private $_action_view;
         private $_data;
@@ -26,17 +27,17 @@ class Template
 
         public function renderTemplateHeaderStart()
         {
-            require_once TEMPLATE_PATH. 'templateheaderstart.php';
+            require_once TEMPLATE_PATH . 'templateheaderstart.php';
         }
 
         public function renderTemplateHeaderEnd()
         {
-            require_once TEMPLATE_PATH. 'templateheaderend.php';
+            require_once TEMPLATE_PATH . 'templateheaderend.php';
         }
 
         public function renderTemplateFooter()
         {
-            require_once TEMPLATE_PATH. 'templatefooter.php';
+            require_once TEMPLATE_PATH . 'templatefooter.php';
         }
         private function renderTemplateBlocks()
         {
