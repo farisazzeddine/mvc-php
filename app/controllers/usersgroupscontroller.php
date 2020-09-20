@@ -3,7 +3,7 @@ namespace PHPMVC\Controllers;
 
 use PHPMVC\Models\UserModel;
 
-class UsersController extends AbstractController
+class UsersGroupsController extends AbstractController
 {
     public function defaultAction()
     {
