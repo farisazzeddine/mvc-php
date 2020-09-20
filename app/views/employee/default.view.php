@@ -39,8 +39,7 @@
                 <a href="/employee/edit/<?= $employee->id ?>"><i class="fa fa-pencil-square-o"
                                                                  aria-hidden="true"></i></a>
                 <a href="/employee/delete/<?= $employee->id ?>"
-                   onclick="if(!confirm('<?= $text_delete_confirm ?>')) return false;"><i class="fa fa-trash-o"
-                                                                                                   aria-hidden="true"></i></a>
+                   onclick="if(!confirm('<?= $text_delete_confirm ?>')) return false;"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
             </td>
 
             <?php
