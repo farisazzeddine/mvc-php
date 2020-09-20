@@ -215,3 +215,10 @@ div.container h4.bg-title {
     color: #ffffff;
     display: inline-block;
 }
+div.container a.button {
+    background-color:#00796b;
+    padding:10px;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+}

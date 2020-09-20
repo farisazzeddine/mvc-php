@@ -15,5 +15,7 @@ $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
 /*end of comment for edit tasks*/
-$('table').DataTables();
+$(document).ready( function () {
+    $('#table_id').DataTable();
+} );
 
