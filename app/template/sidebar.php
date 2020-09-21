@@ -32,7 +32,7 @@
                     <a href="/users"><i class="fa fa-list mr-2" aria-hidden="true"></i><?= $text_sb_all_employees ?></a>
                 </li>
                 <li class="<?= $this->matchUrl('/users') === true ? 'selected' : '' ?>">
-                    <a href="/users"><i class="fa fa-plus mr-2" aria-hidden="true"></i><?= $text_sb_add_employees ?></a>
+                    <a href="/groups/create"><i class="fa fa-plus mr-2" aria-hidden="true"></i><?= $text_sb_add_employees ?></a>
                 </li>
 
             </ul>
