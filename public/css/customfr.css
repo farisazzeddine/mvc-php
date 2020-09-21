@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
 }
-body{font-family: 'Noto Sans', sans-serif;background-color: #eee;}
+body {font-family: "Lato", Arial, sans-serif; min-width: 100%; min-height: 100%; color: #666;}
+
 /*new disgne button en bg and text*/
 .text-pink{color: #c2185b;}
 .text-teal{color: #00695c;}
@@ -227,4 +228,32 @@ div.container a.button {
     color: #ffffff;
     display: inline-block;
     float: right;
+}
+/*// css for label effects only*/
+.col-3{float: left; width: 27.33%; margin: 40px 3%; position: relative;} /* necessary to give position: relative to parent. */
+input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+
+.effect-17 {border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent;}
+.effect-17 ~ .focus-border{position: absolute; bottom: 0; left: 50%; width: 0; height: 2px; background-color: #20c997; transition: 0.4s;}
+.effect-17:focus ~ .focus-border,
+.has-content.effect-17 ~ .focus-border{width: 100%; transition: 0.4s; left: 0;}
+.effect-17 ~ label{position: absolute; left: 0; width: 100%; top: 9px; color: #aaa; transition: 0.3s; z-index: -1; letter-spacing: 0.5px;}
+.effect-17:focus ~ label, .has-content.effect-17 ~ label{top: -16px; font-size: 12px; color: #20c997; transition: 0.3s;}
+/*// css for label effects only*/
+fieldset {
+    /*background-color: rgba(58, 180, 193, 0.3);*/
+    border-radius: 4px;
+    border: 2px solid #20c997;
+}
+
+legend {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: var(--teal);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 3px 5px 3px 7px;
+    width: auto;
 }
