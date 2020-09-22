@@ -29,10 +29,13 @@
             </a>
             <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li class="<?= $this->matchUrl('/users') === true ? 'selected' : '' ?>">
-                    <a href="/users"><i class="fa fa-list mr-2" aria-hidden="true"></i><?= $text_sb_all_employees ?></a>
+                    <a href="/users"><i class="fa fa-list mr-2" aria-hidden="true"></i><?= $text_sb_all_users ?></a>
                 </li>
-                <li class="<?= $this->matchUrl('/users') === true ? 'selected' : '' ?>">
-                    <a href="/groups/create"><i class="fa fa-plus mr-2" aria-hidden="true"></i><?= $text_sb_add_employees ?></a>
+                <li class="<?= $this->matchUrl('/privileges') === true ? 'selected' : '' ?>">
+                    <a href="/privileges"><i class="fa fa-list mr-2" aria-hidden="true"></i><?= $text_sb_add_privileges ?></a>
+                </li>
+                <li class="<?= $this->matchUrl('/usersgroups') === true ? 'selected' : '' ?>">
+                    <a href="/usersgroups"><i class="fa fa-list mr-2" aria-hidden="true"></i><?= $text_sb_add_usersgroups ?></a>
                 </li>
 
             </ul>

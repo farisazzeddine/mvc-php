@@ -229,16 +229,22 @@ div.container a.button {
     float: left;
 }
 /*// css for label effects only*/
-.col-3{float: left; width: 27.33%; margin: 40px 3%; position: relative;} /* necessary to give position: relative to parent. */
+.floated{
+    top: -16px!important;
+    font-size: 12px!important;
+    color: #20c997!important;
+    transition: 0.3s!important;
+}
+.col-3{float: right; width: 27.33%; margin: 40px 3%; position: relative;} /* necessary to give position: relative to parent. */
 input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
 
 
 .effect-17 {border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent;}
-.effect-17 ~ .focus-border{position: absolute; bottom: 0; right: 50%; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+.effect-17 ~ .focus-border{position: absolute; bottom: 0; right: 50%; width: 0; height: 2px; background-color: #20c997; transition: 0.4s;}
 .effect-17:focus ~ .focus-border,
 .has-content.effect-17 ~ .focus-border{width: 100%; transition: 0.4s; right: 0;}
 .effect-17 ~ label{position: absolute; right: 0; width: 100%; top: 9px; color: #aaa; transition: 0.3s; z-index: -1; letter-spacing: 0.5px;}
-.effect-17:focus ~ label, .has-content.effect-17 ~ label{top: -16px; font-size: 12px; color: #3399FF; transition: 0.3s;}
+.effect-17:focus ~ label, .has-content.effect-17 ~ label{top: -16px; font-size: 12px; color: #20c997; transition: 0.3s;}
 /*// css for label effects only*/
 fieldset {
     /*background-color: rgba(58, 180, 193, 0.3);*/
@@ -256,3 +262,8 @@ legend {
     padding: 3px 5px 3px 7px;
     width: auto;
 }
+/*position button*/
+.float{
+    float: left!important;
+}
+/*position button*/
