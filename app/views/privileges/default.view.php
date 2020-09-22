@@ -20,8 +20,8 @@
             <td><?= $privilege->PrivilegeTitle  ?></td>
             <td><?= $privilege->Privilege  ?></td>
             <td class="text-center">
-                <a href="/user/edit/<?= $privilege->Privilege_id ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-                <a href="/user/delete/<?= $privilege->Privilege_id ?>"
+                <a href="/privileges/edit/<?= $privilege->Privilege_id ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                <a href="/privileges/delete/<?= $privilege->Privilege_id ?>"
                    onclick="if(!confirm('<?= $text_delete_confirm ?>')) return false;"><i class="fa fa-trash-o" aria-hidden="true"></i>
                 </a>
             </td>
