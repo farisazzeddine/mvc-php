@@ -6,6 +6,7 @@ $_['text_table_user_usersName']="الإ سم";
 $_['text_table_user_password']="كلمة المرور";
 $_['text_table_user_email']="البريد الإلكتروني";
 $_['text_table_user_phoneNumber']="رقم الهاتف";
+
 $_['text_table_groupId']="مجموعة";
 $_['text_table_subscriptionDate']="تاريخ التسجيل";
 $_['text_table_last_login']="آخر تسجيل دخول";

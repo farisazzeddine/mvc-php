@@ -1,5 +1,5 @@
 <?php
-$_['text_managing_employees']=" إدارة الموظفين";
+$_['text_managing_employees']=" إدارة المتجر";
 $_['text_sb_users']=" المستخدمين";
 $_['text_sb_general_statistics']=" إحصاءات عامة";
 $_['text_sb_store']=" المتجر";
@@ -16,10 +16,9 @@ $_['text_sb_transactions_sales']=" مبيعات";
 $_['text_sb_notifications']=" إشعارات";
 $_['text_sb_reports']=" التقارير";
 $_['text_body_notfound']=" عذرا، لم يتم العثور على الصفحة المطلوبة";
-
-$_['text_sb_all_employees']=" كل الموظفين";
-$_['text_sb_add_employees']="إضافة موظف جديد ";
-$_['text_sb_about_employees']="عن الموظفين ";
+$_['text_sb_all_users']=" المستخدمين";
+$_['text_sb_add_privileges']=" صلاحيات المستخدمين ";
+$_['text_sb_add_usersgroups']=" مجموعات المستخدمين";
 $_['text_sb_pages']="الصفحات ";
 $_['text_sb_pages_1']="الصفحة  1";
 $_['text_sb_pages_2']="الصفحة 2";

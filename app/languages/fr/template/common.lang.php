@@ -1,5 +1,5 @@
 <?php
-$_['text_managing_employees']=" Gérer les employés";
+$_['text_managing_employees']=" Gestion du magasin";
 $_['text_sb_users']=" Utilisateurs";
 $_['text_sb_general_statistics']=" Statistiques générales";
 $_['text_sb_store']=" Boutique";
@@ -16,11 +16,9 @@ $_['text_sb_transactions_sales']=" Les Ventes";
 $_['text_sb_notifications']=" Les notifications";
 $_['text_sb_reports']=" Les rapports";
 $_['text_body_notfound']="Désolé, la page demandée n'a pas été trouvée";
-
-
-$_['text_sb_all_employees']=" Tous les employés";
-$_['text_sb_add_employees']=" Ajouter un nouvel employé";
-$_['text_sb_about_employees']=" A propos les employés";
+$_['text_sb_all_users']="Les Utilisateurs";
+$_['text_sb_add_privileges']="Les Autorisations d'utilisateur";
+$_['text_sb_add_usersgroups']="Les Groupes d'utilisateurs";
 $_['text_sb_pages']=" Des pages";
 $_['text_sb_pages_1']=" Page 1";
 $_['text_sb_pages_2']=" Page 2";
