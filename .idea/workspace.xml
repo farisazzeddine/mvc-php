@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="new trait for parseurl">
-      <change afterPath="$PROJECT_DIR$/app/languages/ar/privileges/edit.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/fr/privileges/edit.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/privileges/edit.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/languages/ar/usersgroups/create.lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/languages/ar/usersgroups/labels.lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/languages/fr/usersgroups/create.lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/languages/fr/usersgroups/labels.lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/usergroupprivilegemodel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/usersgroups/create.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/privilegescontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/privilegescontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/ar/template/common.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/template/common.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/usersgroupscontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/usersgroupscontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/ar/employee/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/employee/default.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/ar/privileges/create.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/privileges/create.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/ar/privileges/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/privileges/default.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/ar/privileges/edit.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/privileges/edit.lang.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/languages/ar/users/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/users/default.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/fr/template/common.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/template/common.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/privileges/create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/privileges/create.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/privileges/default.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/privileges/default.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/customar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/customfr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customfr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/ar/usersgroups/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/usersgroups/default.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/fr/employee/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/employee/default.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/fr/privileges/create.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/privileges/create.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/fr/privileges/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/privileges/default.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/fr/privileges/edit.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/privileges/edit.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/fr/users/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/users/default.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/languages/fr/usersgroups/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/usersgroups/default.lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/usergroupmodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/usergroupmodel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/templateheaderstart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/templateheaderstart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/usersgroups/default.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/usersgroups/default.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +82,8 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/privileges" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/models" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,11 +92,11 @@
       <recent name="C:\xampp\htdocs\mvc\app\config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc-php\app\models" />
+      <recent name="C:\xampp\htdocs\mvc-php\app\languages\ar\usersgroups" />
+      <recent name="C:\xampp\htdocs\mvc-php\app\languages\fr\usersgroups" />
+      <recent name="C:\xampp\htdocs\mvc-php\app\views\usersgroups" />
       <recent name="C:\xampp\htdocs\mvc-php\app\views\privileges" />
-      <recent name="C:\xampp\htdocs\mvc-php\app\languages\fr\privileges" />
-      <recent name="C:\xampp\htdocs\mvc-php\app\languages\ar\privileges" />
-      <recent name="C:\xampp\htdocs\mvc\app\languages\ar\privileges" />
-      <recent name="C:\xampp\htdocs\mvc\app\languages\fr\privileges" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Page.RUN &amp; DEBUG">
@@ -150,7 +160,7 @@
       <workItem from="1600598407790" duration="6186000" />
       <workItem from="1600708739134" duration="3663000" />
       <workItem from="1600726389015" duration="5288000" />
-      <workItem from="1600764504308" duration="7238000" />
+      <workItem from="1600764504308" duration="22026000" />
     </task>
     <task id="LOCAL-00001" summary="session_management">
       <created>1599088036022</created>
@@ -271,7 +281,28 @@
       <option name="project" value="LOCAL" />
       <updated>1600731712936</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ajouter les methods pour creer et modifier et supprimer">
+      <created>1600773081599</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600773081599</updated>
+    </task>
+    <task id="LOCAL-00019" summary="des nouveau primitives de la langue pour les interfaces create et edit">
+      <created>1600773217747</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600773217747</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ajout des views pour la parties privileges">
+      <created>1600773250189</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600773250189</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,17 +325,21 @@
     <MESSAGE value="language labael and create file" />
     <MESSAGE value="modification des fichier interface et style" />
     <MESSAGE value="ajoute des designe pour fieldset et labels" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajoute des designe pour fieldset et labels" />
+    <MESSAGE value="ajouter les methods pour creer et modifier et supprimer" />
+    <MESSAGE value="des nouveau primitives de la langue pour les interfaces create et edit" />
+    <MESSAGE value="ajout des views pour la parties privileges" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des views pour la parties privileges" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Inspections" timestamp="1598718152862">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1598718152862" />
-    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600531954885">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2011" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600788279350">
+      <screen x="1600" y="0" width="1360" height="738" />
     </state>
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1600531954885" />
+    <state x="2011" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.870/1600.0.1360.738@1600.0.1360.738" timestamp="1600788279350" />
     <state x="167" y="0" width="1402" height="870" key="CommitChangelistDialog2" timestamp="1600773249489">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -322,10 +357,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="879" y="0" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1599087962400" />
-    <state x="184" y="11" key="SettingsEditor" timestamp="1600123925846">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1783" y="11" key="SettingsEditor" timestamp="1600854507939">
+      <screen x="1600" y="0" width="1360" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1600123925846" />
+    <state x="1783" y="11" key="SettingsEditor/0.0.1600.870/1600.0.1360.738@1600.0.1360.738" timestamp="1600854507939" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1599394070523">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -339,13 +375,15 @@
     </state>
     <state x="832" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1599517817593" />
     <state x="975" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600773258658" />
-    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1597597333492">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="432" y="100" width="735" height="670" key="find.popup" timestamp="1600773762271">
+      <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597597333492" />
-    <state x="708" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1592736555809">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="432" y="100" width="735" height="670" key="find.popup/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600773762271" />
+    <state x="829" y="70" width="788" height="800" key="search.everywhere.popup" timestamp="1600773690418">
+      <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="708" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1592736555809" />
+    <state x="829" y="70" width="788" height="800" key="search.everywhere.popup/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600773690418" />
   </component>
 </project>
