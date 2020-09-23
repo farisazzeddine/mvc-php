@@ -4,7 +4,7 @@ namespace PHPMVC\Models;
 class UserGroupModel extends AbstractModel
 {
     public $Group_id;
-    public $Group_name ;
+    public $Group_name;
 
     
     protected static $tableName='app_users_groups';
