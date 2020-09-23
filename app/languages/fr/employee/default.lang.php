@@ -1,5 +1,5 @@
 <?php
-$_['app_title']="les employées";
+$_['title']="les employées";
 $_['text_table_employee_Name']="Nom et Prénom";
 $_['text_table_employee_Age']="Age";
 $_['text_table_employee_Address']="Adresse";

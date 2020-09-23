@@ -1,5 +1,5 @@
 <?php
-$_['app_title']=" Utilisateurs et privilège ";
+$_['title']=" Utilisateurs et privilège ";
 $_['text_us_header']=" Utilisateurs et privilège ";
 $_['text_new_item']="Nouveau Utilisateur";
 $_['text_table_user_usersName']="Nom";

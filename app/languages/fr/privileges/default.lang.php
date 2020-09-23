@@ -1,5 +1,5 @@
 <?php
-$_['app_title']=" privilège ";
+$_['title']=" privilège ";
 $_['text_privilege_header']=" privilège ";
 $_['text_new_item']="Nouveau privilège";
 $_['text_table_privilege_privilegeName']="Type de privilège";

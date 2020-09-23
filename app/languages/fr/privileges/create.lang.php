@@ -1,2 +1,2 @@
 <?php
-$_['app_title']=" Créer un nouveau privilège ";
+$_['title']=" Créer un nouveau privilège ";

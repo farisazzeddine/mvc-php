@@ -1,5 +1,5 @@
 <?php
-$_['app_title']=" امتياز المستخدمين";
+$_['title']=" امتياز المستخدمين";
 $_['text_us_header']=" المستخدمين و الصلاحيات";
 $_['text_new_item']=" مستخدم جديد";
 $_['text_table_user_usersName']="الإ سم";
