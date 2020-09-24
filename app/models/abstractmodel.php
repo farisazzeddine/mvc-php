@@ -111,6 +111,22 @@ class AbstractModel
 
     }
 
+    public static function getBy($columns, $options=array())
+    {
+        $whereClauseColumns=array_keys($columns);
+        $whereClauseValues=array_values($columns);
+
+        $whereClause=[];
+        for($i=0, $ii = count($whereClauseColumns); $i<$ii; $i++){
+            $whereClause[]= $whereClauseColumns[$i].'= "'.$whereClauseValues[$i].'"';
+
+        }
+        $whereClause = implode(' AND ',$whereClause);
+        $sql=' SELECT * FROM ' . static::$tableName.' WHERE '.$whereClause;
+        return static::get($sql, $options);
+
+    }
+
     public static function get($sql, $option =[])
     {
 
