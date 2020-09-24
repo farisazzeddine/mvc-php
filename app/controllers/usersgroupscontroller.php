@@ -13,17 +13,17 @@ class UsersGroupsController extends AbstractController
     use InputFilter;
     public function defaultAction()
     {
-        $this->_language->load('template.common');
-        $this->_language->load('usersgroups.default');
+        $this->language->load('template.common');
+        $this->language->load('usersgroups.default');
         $this->_data['groups']=UserGroupModel::getAll();
         $this->_view();
 
     }
     public function createAction()
     {
-        $this->_language->load('template.common');
-        $this->_language->load('usersgroups.labels');
-        $this->_language->load('usersgroups.create');
+        $this->language->load('template.common');
+        $this->language->load('usersgroups.labels');
+        $this->language->load('usersgroups.create');
         $this->_data['privileges']=PrivilegeModel::getAll();
         if(isset($_POST['submit'])){
             $groupe = new UserGroupModel();
@@ -52,9 +52,9 @@ class UsersGroupsController extends AbstractController
         if($groupe === false){
             $this->redirect('/usersgroups');
         }
-        $this->_language->load('template.common');
-        $this->_language->load('usersgroups.labels');
-        $this->_language->load('usersgroups.edit');
+        $this->language->load('template.common');
+        $this->language->load('usersgroups.labels');
+        $this->language->load('usersgroups.edit');
         $this->_data['privileges']=PrivilegeModel::getAll();
         $groupPrivileges=UserGroupPrivilegeModel::getBy(['Group_id' => $groupe->Group_id]);
         $extractPrivilegesId=[];

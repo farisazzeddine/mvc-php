@@ -6,6 +6,7 @@ namespace PHPMVC\LIB;
 
 
 
+use PHPMVC\languages\Registry;
 use PHPMVC\LIB\Template\Template;
 
 class FrontController
@@ -15,14 +16,13 @@ class FrontController
     private $_controller  = 'index';
     private $_action      = 'default';
     private $_params      =  array();
-
+    private $_registry;
     private $_template;
-    private $_language;
 
-    public function __construct(Template $template,Language $language)
+    public function __construct(Template $template,Registry $registry)
     {
         $this->_template =$template;
-        $this->_language =$language;
+        $this->_registry =$registry;
         $this->_parseUrl();
     }
 
@@ -58,7 +58,7 @@ class FrontController
         $controller->setAction($this->_action);
         $controller->setParams($this->_params);
         $controller->setTemplate($this->_template);
-        $controller->setLanguage($this->_language);
+        $controller->setRegistry($this->_registry);
         $controller->$actionName();
 
 

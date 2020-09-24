@@ -13,8 +13,9 @@ class PrivilegesController extends AbstractController
     use Helper;
     public function defaultAction()
     {
-        $this->_language->load('template.common');
-        $this->_language->load('privileges.default');
+
+        $this->language->load('template.common');
+        $this->language->load('privileges.default');
         $this->_data['privileges']=PrivilegeModel::getAll();
         $this->_view();
 
@@ -22,9 +23,9 @@ class PrivilegesController extends AbstractController
 
     public function createAction()
     {
-        $this->_language->load('template.common');
-        $this->_language->load('privileges.labels');
-        $this->_language->load('privileges.create');
+        $this->language->load('template.common');
+        $this->language->load('privileges.labels');
+        $this->language->load('privileges.create');
         if(isset($_POST['submit'])){
             $privilege=new PrivilegeModel();
             $privilege->PrivilegeTitle=$this->filterString($_POST['PrivilegeTitle']);
@@ -43,9 +44,9 @@ class PrivilegesController extends AbstractController
             $this->redirect('/privileges');
         }
         $this->_data['privilege']=$privilege;
-        $this->_language->load('template.common');
-        $this->_language->load('privileges.labels');
-        $this->_language->load('privileges.edit');
+        $this->language->load('template.common');
+        $this->language->load('privileges.labels');
+        $this->language->load('privileges.edit');
         if(isset($_POST['submit'])){
 
             $privilege->PrivilegeTitle=$this->filterString($_POST['PrivilegeTitle']);

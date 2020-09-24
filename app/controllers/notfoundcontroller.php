@@ -8,8 +8,7 @@ class NotFoundController extends AbstractController
 {
     public function notFoundAction()
     {
-        $this->_language->load('template.common');
-//        $this->_language->load('index.default');
+        $this->language->load('template.common');
         $this->_view();
     }
 }
