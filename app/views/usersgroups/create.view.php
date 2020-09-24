@@ -12,7 +12,7 @@
             </div>
 
             <div class="col-md-12 ml-4">
-                <label> <?= $text_label_privileges ?></label>
+                <label class="font-weight-bold"> <?= $text_label_privileges ?></label>
                 <div class=" d-block">
                     <?php if(false !== $privileges  ) : foreach ($privileges as $privilege): ?>
                         <input type="checkbox" class="form-check-input" name="privileges[]" id="exampleCheck<?=$privilege->Privilege_id ?>" value="<?=$privilege->Privilege_id ?>">
