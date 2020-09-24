@@ -32,8 +32,8 @@
                             </button>
                             <div class="dropdown-menu" id="dropdownMenuButtonNav" aria-labelledby="dropdownMenuButtonNav">
                                 <a class="dropdown-item" href="#"><i class="fa fa-id-card-o mx-2" aria-hidden="true"></i><?= $text_nav_profil ?> </a>
-                                <a class="dropdown-item" href="#"><i class="fa fa-sign-out mx-2" aria-hidden="true"></i><?= $text_nav_logout ?></a>
                                 <a class="dropdown-item" id="lang" href="/language"><i class="fa fa-language mx-2" aria-hidden="true"></i><?= $text_nav_language ?> </a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-sign-out mx-2" aria-hidden="true"></i><?= $text_nav_logout ?></a>
 
                             </div>
                         </div>
