@@ -5,17 +5,16 @@
             <legend><?= $text_legend ?></legend>
             <div class="row mt-3">
                 <div class="col-md-5 col-3 input-effect">
-                    <input class="effect-17" type="text" name="Group_name" id="Group_name"  placeholder="" maxlength="20">
-                    <label> <?= $text_label_group_title ?></label>
+                    <input class="effect-17" type="text" name="Group_name" id="Group_name"  placeholder="" maxlength="20" value="<?= $groupe->Group_name ?>">
+                    <label class="floated"> <?= $text_label_group_title ?></label>
                     <span class="focus-border"></span>
                 </div>
             </div>
-
             <div class="col-md-12 ml-4">
                 <label> <?= $text_label_privileges ?></label>
                 <div class=" d-block">
                     <?php if(false !== $privileges  ) : foreach ($privileges as $privilege): ?>
-                        <input type="checkbox" class="form-check-input" name="privileges[]" id="exampleCheck<?=$privilege->Privilege_id ?>" value="<?=$privilege->Privilege_id ?>">
+                        <input type="checkbox" class="form-check-input" name="privileges[]" <?= in_array($privilege->Privilege_id, $groupPrivileges) ? 'checked': '' ?>  id="exampleCheck<?=$privilege->Privilege_id ?>" value="<?=$privilege->Privilege_id ?>">
                         <label class="form-check-label d-block" for="exampleCheck<?=$privilege->Privilege_id ?>"><?=$privilege->PrivilegeTitle ?></label>
                     <?php  endforeach; else : ?>
                         <label>  il ya pas des données  </label>

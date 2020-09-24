@@ -1,5 +1,5 @@
 <div class="container">
-    <h4 class="bg-title"><?= $text_group_header ?></h4>
+    <h4 class="bg-title"><span class="material-icons">groups</span><?= $text_group_header ?></h4>
     <a href="/usersgroups/create" class="button"><i class="fa fa-plus"></i> <?= $text_new_item ?></a>
 
         <table id="table_id" class="table table-hover display">
