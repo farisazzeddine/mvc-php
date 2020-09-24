@@ -31,4 +31,14 @@ $(window).load(function(){
         }
     })
 });
+// function initInputBlur() {
+//     $('input').on('blur', function(event) {
+//         var inputValue = this.value;
+//         if (inputValue) {
+//             $('label').classList.add('floated');
+//         } else {
+//             $('label').classList.remove('floated');
+//         }
+//     });
+// }
 
