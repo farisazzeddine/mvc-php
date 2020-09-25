@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="new trait for parseurl">
+      <change afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/privilegescontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/privilegescontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/usersgroupscontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/usersgroupscontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/usergroupprivilegemodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/usergroupprivilegemodel.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +142,7 @@
       <workItem from="1600598407790" duration="6186000" />
       <workItem from="1600708739134" duration="3663000" />
       <workItem from="1600726389015" duration="5288000" />
-      <workItem from="1600764504308" duration="53519000" />
+      <workItem from="1600764504308" duration="57052000" />
     </task>
     <task id="LOCAL-00001" summary="session_management">
       <created>1599088036022</created>
@@ -458,11 +462,11 @@
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1600531954885" />
     <state x="484" y="146" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600957760882" />
     <state x="2011" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.870/1600.0.1360.738@1600.0.1360.738" timestamp="1600788279350" />
-    <state x="167" y="0" width="1402" height="870" key="CommitChangelistDialog2" timestamp="1601044717430">
+    <state x="167" y="0" width="1402" height="870" key="CommitChangelistDialog2" timestamp="1601048434062">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="143" y="0" width="1160" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600731711718" />
-    <state x="167" y="0" width="1402" height="870" key="CommitChangelistDialog2/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1601044717430" />
+    <state x="167" y="0" width="1402" height="870" key="CommitChangelistDialog2/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1601048434062" />
     <state x="304" y="0" key="DiffContextDialog" timestamp="1600958590773">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -526,11 +530,6 @@
           <url>file://$PROJECT_DIR$/app/views/usersgroups/default.view.php</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/controllers/usersgroupscontroller.php</url>
-          <line>58</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/lib/frontcontroller.php</url>
