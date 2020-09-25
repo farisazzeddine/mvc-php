@@ -268,3 +268,28 @@ legend {
     float: right!important;
 }
 /*position button*/
+
+/*messanger notification*/
+p.message{
+    font-size: 0.95em;
+    background-color: #222;
+    color:#FFF;
+    padding: 5px 10px;
+    line-height: 1.5;
+    margin:0 0 10px 0;
+    border-radius:3px;
+
+}
+p.message.t1{
+    background: #68ab68;
+}
+p.message.t2{
+    background: #900;
+}
+p.message.t3{
+     background: #e2b072;
+ }
+p.message.t4{
+      background: #408eba;
+}
+/*messanger notification*/
