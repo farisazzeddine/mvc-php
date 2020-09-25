@@ -1,7 +1,8 @@
 <?php
 namespace PHPMVC;
 
-use PHPMVC\languages\Registry;
+use PHPMVC\LIB\Messenger;
+use PHPMVC\LIB\Registry;
 use PHPMVC\LIB\FrontController;
 use PHPMVC\LIB\Language;
 use PHPMVC\LIB\SessionManager;
@@ -19,10 +20,18 @@ if (!isset($session->lang)){
     $session->lang=APP_DEFAULT_LANGUAGE;
 }
 $template_parts = require_once '..' . DS . 'app' . DS .'config'.DS. 'templateconfig.php';
+
 $template = new Template($template_parts);
+
 $language = new language();
+
+$messenger= Messenger::getInstance($session);
+
 $registry = Registry::getInstance();
 $registry->session = $session;
 $registry->language = $language;
+$registry->messenger = $messenger;
+
+
 $frontController = new FrontController($template, $registry);
 $frontController->dispatch();
