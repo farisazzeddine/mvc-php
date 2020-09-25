@@ -10,12 +10,17 @@ class Template
         private $_templateParts;
         private $_action_view;
         private $_data;
+        private $_registry;
+
+        public function __get($key)
+        {
+            return $this->_registry->$key;
+        }
 
         public function __construct(array $parts)
         {
             $this->_templateParts = $parts;
         }
-
         public function setActionViewFile($actionViewPath)
         {
             $this->_action_view = $actionViewPath;
@@ -24,17 +29,18 @@ class Template
         {
             $this->_data= $data;
         }
-
+        public function setRegistry($registry)
+        {
+            $this->_registry=$registry;
+        }
         public function renderTemplateHeaderStart()
         {
             require_once TEMPLATE_PATH . 'templateheaderstart.php';
         }
-
         public function renderTemplateHeaderEnd()
         {
             require_once TEMPLATE_PATH . 'templateheaderend.php';
         }
-
         public function renderTemplateFooter()
         {
             require_once TEMPLATE_PATH . 'templatefooter.php';

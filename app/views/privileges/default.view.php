@@ -1,4 +1,5 @@
 <div class="container">
+
     <h4 class="bg-title"><?= $text_privilege_header ?></h4>
     <a href="/privileges/create" class="button"><i class="fa fa-plus"></i> <?= $text_new_item ?></a>
 

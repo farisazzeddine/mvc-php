@@ -1,16 +1,6 @@
 <div class="container-fluid mt-4">
 
-    <?php if (isset($_SESSION['message'])) { ?>
-        <div class="center-align">
-            <p class=" white-text col-md-6 offset-md-3 alert alert-success accent-3 <?= isset($error) ? 'indigo lighten-5' : '' ?>"
-               style="padding:10px;">
-                <?= $_SESSION['message'] ?>
-            </p>
 
-        </div>
-        <?php
-        unset($_SESSION['message']);
-    } ?>
     <table class="table table-hover">
         <thead>
         <tr>

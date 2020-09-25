@@ -48,4 +48,19 @@
                 </ul>
             </div>
         </div>
+
     </nav>
+    <?php
+    $messages = $this->messenger->getMessages();
+    if(!empty($messages)):
+    foreach ($messages as $message):
+    ?>
+    <div class="text-center">
+        <p class="mx-4 message t<?= $message[1] ?>">
+            <?= $message[0] ?>
+        </p>
+
+    </div>
+<?php endforeach; endif; ?>
+
+
