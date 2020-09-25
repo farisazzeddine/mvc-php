@@ -1,0 +1,6 @@
+best practice
+
+1-validation on client side by using html5 attributes or javascript.
+2-form input filtering (validation) inside the controller.
+3-Model must validate the data provided by controller.
+4-Model is responsible for business logic

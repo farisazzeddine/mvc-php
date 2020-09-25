@@ -48,22 +48,20 @@ class UsersGroupsController extends AbstractController
     {
         $id=$this->filterInt($this->_params[0]);
         $groupe=UserGroupModel::getByPk($id);
-        $this->_data['groupe']=$groupe;
+
         if($groupe === false){
             $this->redirect('/usersgroups');
         }
         $this->language->load('template.common');
         $this->language->load('usersgroups.labels');
         $this->language->load('usersgroups.edit');
+
+        $this->_data['groupe']=$groupe;
         $this->_data['privileges']=PrivilegeModel::getAll();
-        $groupPrivileges=UserGroupPrivilegeModel::getBy(['Group_id' => $groupe->Group_id]);
-        $extractPrivilegesId=[];
-        if(false !== $groupPrivileges ){
-            foreach ($groupPrivileges as $privilege){
-                $extractPrivilegesId[]=$privilege->Privilege_id;
-            }
-        }
-        $this->_data['groupPrivileges']= $extractPrivilegesId;
+
+        $extractPrivilegesId= $this->_data['groupPrivileges']= UserGroupPrivilegeModel::getGroupPrivileges($groupe);
+
+
 
         if(isset($_POST['submit'])){
 

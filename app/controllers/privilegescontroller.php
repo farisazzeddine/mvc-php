@@ -36,7 +36,7 @@ class PrivilegesController extends AbstractController
                $this->messenger->add('privilege crée avec succès',Messenger::APP_MESSAGE_ERROR);
                $this->messenger->add('privilege crée avec succès',Messenger::APP_MESSAGE_WARNING);
                $this->messenger->add('privilege crée avec succès',Messenger::APP_MESSAGE_INFO);
-                $this->redirect('/privileges');
+               $this->redirect('/privileges');
            }
         }
         $this->_view();
