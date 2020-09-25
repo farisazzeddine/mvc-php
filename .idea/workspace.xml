@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="new trait for parseurl">
-      <change afterPath="$PROJECT_DIR$/app/languages/Registry.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/abstractcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/abstractcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/indexcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/indexcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/notfoundcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/notfoundcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/privilegescontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/privilegescontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/userscontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/userscontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/usersgroupscontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/usersgroupscontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/frontcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/frontcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,21 +59,22 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/languages/fr/usersgroups" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/languages/fr" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc-php\app\lib" />
       <recent name="C:\xampp\htdocs\mvc\app\lib\template" />
       <recent name="C:\xampp\htdocs\mvc\public" />
       <recent name="C:\xampp\htdocs\mvc\app\config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc-php\app\languages\fr" />
+      <recent name="C:\xampp\htdocs\mvc-php\app\languages\ar" />
       <recent name="C:\xampp\htdocs\mvc-php\app\languages\fr\usersgroups" />
       <recent name="C:\xampp\htdocs\mvc-php\app\languages\ar\usersgroups" />
       <recent name="C:\xampp\htdocs\mvc-php\app\views\usersgroups" />
-      <recent name="C:\xampp\htdocs\mvc-php\app\models" />
-      <recent name="C:\xampp\htdocs\mvc-php\app\views\privileges" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Page.RUN &amp; DEBUG">
@@ -146,7 +138,7 @@
       <workItem from="1600598407790" duration="6186000" />
       <workItem from="1600708739134" duration="3663000" />
       <workItem from="1600726389015" duration="5288000" />
-      <workItem from="1600764504308" duration="39111000" />
+      <workItem from="1600764504308" duration="53519000" />
     </task>
     <task id="LOCAL-00001" summary="session_management">
       <created>1599088036022</created>
@@ -372,7 +364,42 @@
       <option name="project" value="LOCAL" />
       <updated>1600960373319</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="problem de page index fixer">
+      <created>1601044522477</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044522477</updated>
+    </task>
+    <task id="LOCAL-00034" summary="l'ajout des class notification pour la partie massanger">
+      <created>1601044573383</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044573383</updated>
+    </task>
+    <task id="LOCAL-00035" summary="declaration class registry et massanger">
+      <created>1601044609915</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044609915</updated>
+    </task>
+    <task id="LOCAL-00036" summary="setregistry in abstractcontroller">
+      <created>1601044665327</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044665327</updated>
+    </task>
+    <task id="LOCAL-00037" summary="setRegistry in class abstractcontroller">
+      <created>1601044718217</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044718217</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,11 +416,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="designe" />
-    <MESSAGE value="created new controller groups users" />
-    <MESSAGE value="new configuration" />
-    <MESSAGE value="add selected sidebar parameteres" />
-    <MESSAGE value="add parametere languages" />
     <MESSAGE value="add link direction with active ui" />
     <MESSAGE value="model and controller add" />
     <MESSAGE value="language labael and create file" />
@@ -414,24 +436,33 @@
     <MESSAGE value="modification des terme langue en usersgroups" />
     <MESSAGE value="ajout de class font bold" />
     <MESSAGE value="deplacement de logout dans navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="deplacement de logout dans navbar" />
+    <MESSAGE value="problem de page index fixer" />
+    <MESSAGE value="l'ajout des class notification pour la partie massanger" />
+    <MESSAGE value="declaration class registry et massanger" />
+    <MESSAGE value="setregistry in abstractcontroller" />
+    <MESSAGE value="setRegistry in class abstractcontroller" />
+    <option name="LAST_COMMIT_MESSAGE" value="setRegistry in class abstractcontroller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Inspections" timestamp="1598718152862">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1598718152862" />
+    <state x="531" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601029929495">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="531" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1601029929495" />
     <state x="484" y="146" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600957760882">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1600531954885" />
     <state x="484" y="146" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600957760882" />
     <state x="2011" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.870/1600.0.1360.738@1600.0.1360.738" timestamp="1600788279350" />
-    <state x="167" y="0" width="1402" height="870" key="CommitChangelistDialog2" timestamp="1600960372481">
+    <state x="167" y="0" width="1402" height="870" key="CommitChangelistDialog2" timestamp="1601044717430">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="143" y="0" width="1160" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600731711718" />
-    <state x="167" y="0" width="1402" height="870" key="CommitChangelistDialog2/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600960372481" />
+    <state x="167" y="0" width="1402" height="870" key="CommitChangelistDialog2/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1601044717430" />
     <state x="304" y="0" key="DiffContextDialog" timestamp="1600958590773">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -440,11 +471,11 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="689" y="152" key="FileChooserDialogImpl/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600960821228" />
-    <state x="665" y="197" key="NewPhpClassDialog" timestamp="1600960947482">
+    <state x="665" y="197" key="NewPhpClassDialog" timestamp="1601026879525">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="568" y="167" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1600599082039" />
-    <state x="665" y="197" key="NewPhpClassDialog/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600960947482" />
+    <state x="665" y="197" key="NewPhpClassDialog/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1601026879525" />
     <state x="517" y="288" key="NewPhpFileDialog" timestamp="1600728321941">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -478,11 +509,15 @@
     </state>
     <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597597333492" />
     <state x="432" y="100" width="735" height="670" key="find.popup/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600773762271" />
-    <state x="829" y="70" width="788" height="800" key="search.everywhere.popup" timestamp="1600773690418">
+    <state x="456" y="198" key="run.anything.popup" timestamp="1601031241635">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="456" y="198" key="run.anything.popup/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1601031241635" />
+    <state x="829" y="70" width="788" height="800" key="search.everywhere.popup" timestamp="1601028272105">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="708" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1592736555809" />
-    <state x="829" y="70" width="788" height="800" key="search.everywhere.popup/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600773690418" />
+    <state x="829" y="70" width="788" height="800" key="search.everywhere.popup/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1601028272105" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -504,7 +539,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php-line-method">
           <url>file://$PROJECT_DIR$/app/lib/sessionmanager.php</url>
-          <line>115</line>
+          <line>120</line>
           <properties>
             <option name="className" value="\PHPMVC\LIB\SessionManager" />
             <option name="methodName" value="isValidFingerPrint" />
