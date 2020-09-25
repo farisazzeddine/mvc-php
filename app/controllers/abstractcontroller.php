@@ -53,6 +53,7 @@ class AbstractController
             $view =  VIEWS_PATH . 'notfound' . DS . 'notfound.view.php';
         }
         $this->_data=array_merge($this->_data,  $this->language->getDictionary());
+        $this->_template->setRegistry($this->_registry);
         $this->_template->setActionViewFile($view);
         $this->_template->setAppData($this->_data);
         $this->_template->renderApp();
