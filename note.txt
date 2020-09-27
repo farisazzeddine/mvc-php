@@ -4,3 +4,4 @@ best practice
 2-form input filtering (validation) inside the controller.
 3-Model must validate the data provided by controller.
 4-Model is responsible for business logic
+5-mb-strlen for check arabic words
