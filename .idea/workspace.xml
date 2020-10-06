@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="new trait for parseurl">
-      <change afterPath="$PROJECT_DIR$/app/controllers/testcontroller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/validate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/afari.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/afari.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/languages/ar/users/create.lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/languages/ar/users/labels.lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/languages/fr/users/create.lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/languages/fr/users/labels.lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/create.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/abstractmodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/abstractmodel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/userscontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/userscontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/validate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/customar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/customfr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customfr.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,22 +68,22 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/languages/fr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/languages/ar/users" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc\app\languages\ar\users" />
+      <recent name="C:\xampp\htdocs\mvc\app\views\users" />
+      <recent name="C:\xampp\htdocs\mvc\app\languages\fr\users" />
+      <recent name="C:\xampp\htdocs\mvc-php\app\languages\fr" />
+      <recent name="C:\xampp\htdocs\mvc-php\app\languages\ar" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\mvc-php\app\lib" />
       <recent name="C:\xampp\htdocs\mvc\app\lib\template" />
       <recent name="C:\xampp\htdocs\mvc\public" />
       <recent name="C:\xampp\htdocs\mvc\app\config" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\mvc-php\app\languages\fr" />
-      <recent name="C:\xampp\htdocs\mvc-php\app\languages\ar" />
-      <recent name="C:\xampp\htdocs\mvc-php\app\languages\fr\usersgroups" />
-      <recent name="C:\xampp\htdocs\mvc-php\app\languages\ar\usersgroups" />
-      <recent name="C:\xampp\htdocs\mvc-php\app\views\usersgroups" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Page.RUN &amp; DEBUG">
@@ -144,7 +148,12 @@
       <workItem from="1600708739134" duration="3663000" />
       <workItem from="1600726389015" duration="5288000" />
       <workItem from="1600764504308" duration="57052000" />
-      <workItem from="1601204750776" duration="9343000" />
+      <workItem from="1601204750776" duration="9704000" />
+      <workItem from="1601502336313" duration="230000" />
+      <workItem from="1601812439131" duration="111000" />
+      <workItem from="1601814226961" duration="1096000" />
+      <workItem from="1601994975576" duration="3941000" />
+      <workItem from="1601999456844" duration="4229000" />
     </task>
     <task id="LOCAL-00001" summary="session_management">
       <created>1599088036022</created>
@@ -405,7 +414,28 @@
       <option name="project" value="LOCAL" />
       <updated>1601044718217</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="CONTROLLER TEST FOR TEST TRAIT OF VALIDATION">
+      <created>1601244346706</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1601244346707</updated>
+    </task>
+    <task id="LOCAL-00039" summary="ADD TRAIT OF VALIDATE INPOUT">
+      <created>1601244452051</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1601244452051</updated>
+    </task>
+    <task id="LOCAL-00040" summary="NOT AND ADD CONST FOR DATE VALIDATE">
+      <created>1601244485585</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1601244485585</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,9 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add link direction with active ui" />
-    <MESSAGE value="model and controller add" />
-    <MESSAGE value="language labael and create file" />
     <MESSAGE value="modification des fichier interface et style" />
     <MESSAGE value="ajoute des designe pour fieldset et labels" />
     <MESSAGE value="ajouter les methods pour creer et modifier et supprimer" />
@@ -447,7 +474,10 @@
     <MESSAGE value="declaration class registry et massanger" />
     <MESSAGE value="setregistry in abstractcontroller" />
     <MESSAGE value="setRegistry in class abstractcontroller" />
-    <option name="LAST_COMMIT_MESSAGE" value="setRegistry in class abstractcontroller" />
+    <MESSAGE value="CONTROLLER TEST FOR TEST TRAIT OF VALIDATION" />
+    <MESSAGE value="ADD TRAIT OF VALIDATE INPOUT" />
+    <MESSAGE value="NOT AND ADD CONST FOR DATE VALIDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="NOT AND ADD CONST FOR DATE VALIDATE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Inspections" timestamp="1598718152862">
@@ -482,10 +512,10 @@
     </state>
     <state x="568" y="167" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1601223037558" />
     <state x="665" y="197" key="NewPhpClassDialog/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1601026879525" />
-    <state x="517" y="288" key="NewPhpFileDialog" timestamp="1601205786003">
+    <state x="517" y="288" key="NewPhpFileDialog" timestamp="1601995921185">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1601205786003" />
+    <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1601995921185" />
     <state x="1030" y="0" key="RollbackChangesDialog" timestamp="1600958613643">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -505,15 +535,15 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="550" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599996051027" />
-    <state x="975" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600958539538">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="832" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602003691962">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="832" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1599517817593" />
+    <state x="832" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1602003691962" />
     <state x="975" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600958539538" />
-    <state x="432" y="100" width="735" height="670" key="find.popup" timestamp="1600773762271">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1602002809366">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597597333492" />
+    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1602002809366" />
     <state x="432" y="100" width="735" height="670" key="find.popup/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600773762271" />
     <state x="456" y="198" key="run.anything.popup" timestamp="1601031241635">
       <screen x="0" y="0" width="1600" height="870" />
@@ -522,7 +552,6 @@
     <state x="829" y="70" width="788" height="800" key="search.everywhere.popup" timestamp="1601028272105">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="708" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1592736555809" />
     <state x="829" y="70" width="788" height="800" key="search.everywhere.popup/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1601028272105" />
   </component>
   <component name="XDebuggerManager">
