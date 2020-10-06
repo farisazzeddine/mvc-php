@@ -86,4 +86,17 @@ Trait Validate{
         return (bool) preg_match($this->_regexPatterns['url'], $value);
     }
 
+    public function isValid($roles,$inputType)
+    {
+        $errors=[];
+        if(!empty($roles)){
+            foreach ($roles as $fieldName=>$validationRoles) {
+                $validationRoles=explode('|',$validationRoles);
+                var_dump($validationRoles);
+            }
+        }
+        return empty($errors) ? true : false;
+
+    }
+
 }
