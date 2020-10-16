@@ -1,53 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="new trait for parseurl">
-      <change afterPath="$PROJECT_DIR$/app/controllers/accessdeniedcontroller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/authcontroller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/ar/auth/login.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/ar/users/edit.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/ar/users/messages.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/ar/validation/errors.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/fr/auth/login.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/fr/users/edit.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/fr/users/messages.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/languages/fr/validation/errors.lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/authentication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/suppliermodel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/userprofilemodel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/auth/login.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/edit.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/afari.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/afari.xml" afterDir="false" />
+    <list default="true" id="5e1f8713-4072-429b-8059-c1c83396dd17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/templateconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/templateconfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/abstractcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/abstractcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/privilegescontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/privilegescontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/testcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/testcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/userscontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/userscontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/ar/template/common.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/template/common.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/ar/users/labels.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/ar/users/labels.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/fr/template/common.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/template/common.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/fr/users/default.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/users/default.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/fr/users/labels.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/fr/users/labels.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/frontcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/frontcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/language.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/language.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/sessionmanager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/sessionmanager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/template/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/template/Template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/template/TemplateHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/template/TemplateHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/validate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/abstractmodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/abstractmodel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/usergroupprivilegemodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/usergroupprivilegemodel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/usermodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/usermodel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/create.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/default.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/default.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/customar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/customfr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/customfr.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +152,8 @@
       <workItem from="1602590072180" duration="17169000" />
       <workItem from="1602715177109" duration="3159000" />
       <workItem from="1602774801432" duration="15099000" />
+      <workItem from="1602848835806" duration="233000" />
+      <workItem from="1602849858570" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="session_management">
       <created>1599088036022</created>
@@ -492,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602003803174</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="problem not fixed in session">
+      <created>1602848919686</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1602848919686</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajouter les methods pour creer et modifier et supprimer" />
     <MESSAGE value="des nouveau primitives de la langue pour les interfaces create et edit" />
     <MESSAGE value="ajout des views pour la parties privileges" />
     <MESSAGE value="new controller usersgroups" />
@@ -534,7 +497,8 @@
     <MESSAGE value="NOT AND ADD CONST FOR DATE VALIDATE" />
     <MESSAGE value="adding the front for users" />
     <MESSAGE value="validate trait for filter data" />
-    <option name="LAST_COMMIT_MESSAGE" value="validate trait for filter data" />
+    <MESSAGE value="problem not fixed in session" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem not fixed in session" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Inspections" timestamp="1602070632594">
@@ -565,9 +529,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="304" y="0" key="DiffContextDialog/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600958590773" />
-    <state x="689" y="152" key="FileChooserDialogImpl" timestamp="1600960821229">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="588" y="129" key="FileChooserDialogImpl" timestamp="1602849876112">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="588" y="129" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1602849876112" />
     <state x="689" y="152" key="FileChooserDialogImpl/0.0.1600.870/1600.0.1360.738@0.0.1600.870" timestamp="1600960821228" />
     <state x="568" y="167" key="NewPhpClassDialog" timestamp="1602692394547">
       <screen x="0" y="0" width="1366" height="738" />
