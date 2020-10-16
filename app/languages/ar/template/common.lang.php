@@ -29,3 +29,4 @@ $_['text_nav_profil']=" الملف الشخصي";
 $_['text_nav_logout']=" تسجيل خروج";
 $_['text_nav_language']=" لغة";
 $_['text_form_add_new']="حفظ الموظف بن بنجاح مع مرجع الرقم";
+$_['text_access_denied']="انت لا تمتلك صلاحيه دخول لهذه الصفحه";

@@ -65,8 +65,11 @@ class AbstractModel
         return $stmt->execute();
     }
 
-    public function save()
+    public function save($primaryKeyCheck=true)
     {
+        if(false===$primaryKeyCheck){
+            return $this->create();
+        }
         return $this->{static::$primaryKey} === null ? $this->create() : $this->update();
     }
 
@@ -158,5 +161,16 @@ class AbstractModel
             return new \ArrayIterator($results);
         };
         return false;
+    }
+
+    public static function getOne($sql, $options = array())
+    {
+        $result = static::get($sql, $options);
+        return $result === false ? false : $result->current();
+    }
+
+    public static function getModelTableName()
+    {
+        return static::$tableName;
     }
 }

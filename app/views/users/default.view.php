@@ -21,11 +21,12 @@
             <td><?= $user->Username  ?></td>
             <td class="text-center"><?= $user->Email  ?></td>
             <td  class="text-center"><?= $user->PhoneNumber  ?></td>
-            <td  class="text-center"><?= $user->Group_id  ?></td>
+            <td  class="text-center"><?= $user->Group_name  ?></td>
             <td  class="text-center"><?= $user->SubscriptionDate ?></td>
+            <td  class="text-center"><?= $user->LastLogin ?></td>
             <td class="text-center">
-                <a href="/user/edit/<?= $user->User_id ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-                <a href="/user/delete/<?= $user->User_id ?>"
+                <a href="/users/edit/<?= $user->User_id ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                <a href="/users/delete/<?= $user->User_id ?>"
                    onclick="if(!confirm('<?= $text_delete_confirm ?>')) return false;"><i class="fa fa-trash-o" aria-hidden="true"></i>
                 </a>
             </td>

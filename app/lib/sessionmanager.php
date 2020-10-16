@@ -102,13 +102,12 @@ class SessionManager extends \SessionHandler
     public function kill()
     {
       session_unset();
-      setcookie(
-              $this->sessionName,'',time()-1000,
-              $this->sessionPath,
-              $this->sessionDomain,
-              $this->sessionSSL,
-              $this->sessionHTTPOnly
-      );
+
+        setcookie(
+            $this->sessionName, '', time() - 1000,
+            $this->sessionPath, $this->sessionDomain,
+            $this->sessionSSL, $this->sessionHTTPOnly
+        );
       session_destroy();
     }
     private function generateFingerPrint()

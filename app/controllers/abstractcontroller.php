@@ -11,6 +11,10 @@ class AbstractController
     protected $_controller;
     protected $_action;
     protected $_params;
+    /*
+     * @var Template\Template
+     * */
+
     protected $_template;
     protected $_registry;
 
@@ -50,7 +54,7 @@ class AbstractController
     {
         $view = VIEWS_PATH . $this->_controller . DS . $this->_action . '.view.php';
         if ($this->_action == FrontController::NOT_FOUND_ACTION || !file_exists($view) ){
-            $view =  VIEWS_PATH . 'notfound' . DS . 'notfound.view.php';
+            $view =  VIEWS_PATH . 'notfound' . DS . 'default.view.php';
         }
         $this->_data=array_merge($this->_data,  $this->language->getDictionary());
         $this->_template->setRegistry($this->_registry);

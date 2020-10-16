@@ -28,6 +28,21 @@ class Language
         }
     }
 
+    public function get($key)
+    {
+       if(array_key_exists($key,$this->dictonary)){
+           return $this->dictonary[$key];
+       }
+    }
+    public function feedKey($key,$data)
+    {
+       if(array_key_exists($key,$this->dictonary)){
+           array_unshift($data,$this->dictonary[$key]);
+           return call_user_func_array('sprintf',$data);
+
+       }
+    }
+
     public function getDictionary()
     {
         return $this->dictonary;

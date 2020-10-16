@@ -10,4 +10,4 @@ $_['text_table_groupId']="Groupe";
 $_['text_table_subscriptionDate']="Date d'inscription";
 $_['text_table_last_login']="Dernière connexion";
 $_['text_table_Action']="Controle";
-$_['text_delete_confirm']="Voulez-vous supprimer cet employé?";
+$_['text_delete_confirm']="Voulez-vous supprimer cet utilisateur?";

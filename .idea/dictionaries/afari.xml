@@ -2,6 +2,7 @@
   <dictionary name="afari">
     <words>
       <w>alphanum</w>
+      <w>floatlike</w>
       <w>successfuly</w>
       <w>vdate</w>
     </words>

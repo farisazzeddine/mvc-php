@@ -29,3 +29,4 @@ $_['text_nav_profil']=" Profil";
 $_['text_nav_logout']=" Se déconnecter";
 $_['text_nav_language']=" langue";
 $_['text_form_add_new']=" l'employé a bien sauvé avec le numéro de référence";
+$_['text_access_denied']="Vous n'avez pas accès à cette page";

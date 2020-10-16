@@ -14,7 +14,7 @@ return[
 
             'css'=> array(
                 'bootstrap' =>CSS.'bootstrap-'.$_SESSION['lang'].'.min.css',
-                'dataTables'=>CSS.'dataTables.bootstrap.min.css',
+//                'dataTables'=>CSS.'dataTables.bootstrap.min.css',
                 'fawsome'   =>CSS.'font-awesome.min.css',
                 'fa-material'=>CSS.'material-icons.css',
                 'pattern'   =>CSS.'pattern.min.css',
@@ -27,8 +27,9 @@ return[
             'jquery'        =>JS.'jquery.min.js',
             'popper'        =>JS.'popper.min.js',
             'bootstrap'     =>JS.'bootstrap.min.js',
-            'dataTables'    =>JS.'dataTables.bootstrap.min.js',
-            'custom'        =>JS.'custom.js'
+//            'dataTables'    =>JS.'dataTables.bootstrap.min.js',
+            'custom'        =>JS.'custom.js',
+            'main'        =>JS.'main.js',
 
         ]
     ],

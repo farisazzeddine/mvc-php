@@ -1,8 +1,10 @@
 <!-- Sidebar  -->
 <nav id="sidebar">
-    <div class="sidebar-header d-flex align-items-center pattern-cross-dots-xl">
-        <img src="/img/523-5233379_employee-management-system-logo-hd-png-download.png" class="rounded-circle m-3" width="70" alt="managing-picture">
+    <div class="sidebar-header d-block text-center">
         <h5><?= $text_managing_employees ?></h5>
+        <img src="/img/523-5233379_employee-management-system-logo-hd-png-download.png" class="rounded-circle m-3 " width="100" alt="managing-picture">
+        <p class="text-white"><?= $this->session->u->profile->LastName?> <?= $this->session->u->profile->FirstName?></p>
+        <span class="text-white text-capitalize"><?= $this->session->u->Group_name ?></span>
     </div>
 
     <ul class="list-unstyled components ml-2">

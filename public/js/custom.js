@@ -2,22 +2,14 @@ $(document).ready(function () {
     $('#sidebarCollapse').on('click', function () {
         $('#sidebar').toggleClass('active');
     });
-    // $('#lang').on('click', function () {
-    //     alert('test');
-    //     $('#bg-img').css('direction', 'rtl');
-    //
-    //
-    // });
+
 
 });
 /* comment for edit tasks*/
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
-/*end of comment for edit tasks*/
-$(document).ready( function () {
-    $('#table_id').DataTable();
-} );
+
 
 // JavaScript for label effects only
 $(window).load(function(){
@@ -30,15 +22,9 @@ $(window).load(function(){
             $(this).removeClass("has-content");
         }
     })
+
+
+
 });
-// function initInputBlur() {
-//     $('input').on('blur', function(event) {
-//         var inputValue = this.value;
-//         if (inputValue) {
-//             $('label').classList.add('floated');
-//         } else {
-//             $('label').classList.remove('floated');
-//         }
-//     });
-// }
+
 
