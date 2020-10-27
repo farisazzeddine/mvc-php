@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  mar. 22 sep. 2020 à 01:42
+-- Généré le :  mar. 27 oct. 2020 à 16:07
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP :  7.3.13
 
@@ -229,14 +229,22 @@ CREATE TABLE `app_suppliers` (
 
 CREATE TABLE `app_users` (
   `User_id` int(10) UNSIGNED NOT NULL,
-  `Username` varchar(12) NOT NULL,
+  `UserName` varchar(40) NOT NULL,
   `Password` char(60) NOT NULL,
   `Email` varchar(40) NOT NULL,
-  `PhoneNumber` varchar(5) DEFAULT NULL,
+  `PhoneNumber` varchar(10) NOT NULL,
   `SubscriptionDate` date NOT NULL,
   `LastLogin` datetime NOT NULL,
-  `Group_id` tinyint(1) UNSIGNED NOT NULL
+  `Group_id` tinyint(1) UNSIGNED NOT NULL,
+  `status` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `app_users`
+--
+
+INSERT INTO `app_users` (`User_id`, `UserName`, `Password`, `Email`, `PhoneNumber`, `SubscriptionDate`, `LastLogin`, `Group_id`, `status`) VALUES
+(17, '', '$2a$07$yeNCSNwRpYopOhv0TrrReOz8qal71/hM.05KJkk4oVaUsALf7B/uW', 'faris@azzeddine.com', '0660715090', '0000-00-00', '2020-10-16 01:08:10', 2, 1);
 
 -- --------------------------------------------------------
 
@@ -249,6 +257,14 @@ CREATE TABLE `app_users_groups` (
   `Group_name` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Déchargement des données de la table `app_users_groups`
+--
+
+INSERT INTO `app_users_groups` (`Group_id`, `Group_name`) VALUES
+(1, 'admin'),
+(2, 'super Admin');
+
 -- --------------------------------------------------------
 
 --
@@ -260,6 +276,23 @@ CREATE TABLE `app_users_groups_privileges` (
   `Group_id` tinyint(1) UNSIGNED NOT NULL,
   `Privilege_id` tinyint(3) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `app_users_groups_privileges`
+--
+
+INSERT INTO `app_users_groups_privileges` (`id`, `Group_id`, `Privilege_id`) VALUES
+(32, 2, 22),
+(33, 2, 23),
+(34, 2, 24),
+(35, 2, 25),
+(36, 2, 26),
+(37, 2, 27),
+(38, 1, 24),
+(39, 1, 25),
+(40, 1, 26),
+(41, 1, 27),
+(42, 2, 28);
 
 -- --------------------------------------------------------
 
@@ -278,8 +311,13 @@ CREATE TABLE `app_users_privileges` (
 --
 
 INSERT INTO `app_users_privileges` (`Privilege_id`, `Privilege`, `PrivilegeTitle`) VALUES
-(1, '\\suppliers\\create', 'vendeur'),
-(2, '/fournisseur/create', 'fournisseur');
+(22, '/users', 'voir les utilisateurs '),
+(23, '/users/create', 'cree utilisateur'),
+(24, '/privileges/create', 'cree privilege'),
+(25, '/privileges', 'voir les privileges'),
+(26, '/usersgroups/create', 'cree groupe '),
+(27, '/usersgroups', 'voir les groups'),
+(28, '/expenses', 'expenses');
 
 -- --------------------------------------------------------
 
@@ -295,6 +333,13 @@ CREATE TABLE `app_users_profiles` (
   `DOB` date DEFAULT NULL,
   `Image` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `app_users_profiles`
+--
+
+INSERT INTO `app_users_profiles` (`User_id`, `FirstName`, `LastName`, `Adress`, `DOB`, `Image`) VALUES
+(17, 'faris', 'azzeddine', NULL, NULL, NULL);
 
 --
 -- Index pour les tables déchargées
@@ -399,7 +444,7 @@ ALTER TABLE `app_suppliers`
 --
 ALTER TABLE `app_users`
   ADD PRIMARY KEY (`User_id`),
-  ADD UNIQUE KEY `Username` (`Username`),
+  ADD UNIQUE KEY `Username` (`UserName`),
   ADD UNIQUE KEY `Email` (`Email`),
   ADD KEY `Group_id` (`Group_id`);
 
@@ -515,31 +560,31 @@ ALTER TABLE `app_suppliers`
 -- AUTO_INCREMENT pour la table `app_users`
 --
 ALTER TABLE `app_users`
-  MODIFY `User_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `User_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT pour la table `app_users_groups`
 --
 ALTER TABLE `app_users_groups`
-  MODIFY `Group_id` tinyint(1) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `Group_id` tinyint(1) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT pour la table `app_users_groups_privileges`
 --
 ALTER TABLE `app_users_groups_privileges`
-  MODIFY `id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 
 --
 -- AUTO_INCREMENT pour la table `app_users_privileges`
 --
 ALTER TABLE `app_users_privileges`
-  MODIFY `Privilege_id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `Privilege_id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT pour la table `app_users_profiles`
 --
 ALTER TABLE `app_users_profiles`
-  MODIFY `User_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `User_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- Contraintes pour les tables déchargées
